@@ -101,13 +101,27 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black;											
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
+
 }
+
+.nav-item:hover  {											
+	color: black;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+
+.nav-item:active {											
+	color: black;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
