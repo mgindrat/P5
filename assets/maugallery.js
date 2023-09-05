@@ -145,7 +145,7 @@
           }
         });
       }
-      let index = 0,
+      let index = -1,
         next = null;
 
       $(imagesCollection).each(function(i) {
@@ -184,7 +184,7 @@
           }
         });
       }
-      let index = 0,
+      let index = +1,
         next = null;
 
       $(imagesCollection).each(function(i) {
