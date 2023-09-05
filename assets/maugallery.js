@@ -146,7 +146,7 @@
         });
       }
       let index = 0,
-        next = -1;
+        next = index -1;
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
@@ -185,7 +185,7 @@
         });
       }
       let index = 0,
-        next = +1;
+        next = index +1;
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
