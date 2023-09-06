@@ -200,7 +200,7 @@
         }
       });
 
-      if (index < 0) {
+      if (index < imagesCollection.length - 1) {
         next = imagesCollection[index + 1];
       } else {
         next = imagesCollection[0];
